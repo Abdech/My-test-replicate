@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(226, 243, 247);
+}
+
+table tr {
+  background-color: rgb(139, 137, 137);
+}
+table th,
+table td {
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid white;
+}
+
+.bg-blue {
+  background-color: #0000ff;
+  color: #fff;
+}
+.view {
+  background-color: #ad03ad;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+}
+.activited {
+  background-color: #005eff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  color: #fff;
+}
+.deactivated {
+  background-color: #ad03ad;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+}
+.activited-student {
+  background-color: #96929280;
+}
+.activited-student:hover {
+}
+.row:hover {
+  background-color: #5c525280;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
+  background-color: #fff;
+  padding: 1rem;
+}
+.profile-pic img {
+  width: 70px;
+  border-radius: 50%;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-right: 3px solid purple;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.data-tabular{
+    background-color: #fff;
+    margin: 3rem;
+    padding: 1.5rem;
+}
+.logo{
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+.logo h3{
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 1rem;
+    color: rgb(66, 66, 237);
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 4rem;
+}
+
+.nav-link{
+    padding: 1.1rem;
+}
+.nav-link.active-sec{
+    background: #fff;
+    border-radius: .5rem;
+    color: blue;
+}
+
+.nav-links i{
+    padding: .3rem 1rem .3rem 0;
+}
+.img-mess{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-mess div{
+    padding: 1.6rem;
+}
+#search{
+    padding: 1rem;
+    width: 500px;
+}
+.profile-pic{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
