@@ -60,70 +60,99 @@ table td {
   align-items: center;
   margin: 3rem;
   background-color: #fff;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.6rem;
 }
 .profile-pic img {
   width: 70px;
   border-radius: 50%;
 }
 .nav {
-    display: flex;
-    flex-direction: column;
-    padding: 3rem;
-    border-right: 3px solid purple;
-    /* justify-content: space-around; */
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  border-right: 3px solid purple;
+  /* justify-content: space-around; */
+  align-items: center;
 }
-.data-tabular{
-    background-color: #fff;
-    margin: 3rem;
-    padding: 1.5rem;
+.data-tabular {
+  background-color: #fff;
+  margin: 3rem;
+  padding: 1.5rem;
 }
-.logo{
-    align-self: flex-start;
-    justify-self: flex-start;
+.logo {
+  align-self: flex-start;
+  justify-self: flex-start;
 }
-.logo h3{
-    background-color: #fff;
-    padding: 3rem;
-    border-radius: 1rem;
-    color: rgb(66, 66, 237);
-}
-
-.nav-links{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin-top: 4rem;
+.logo h3 {
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 1rem;
+  color: rgb(66, 66, 237);
 }
 
-.nav-link{
-    padding: 1.1rem;
-}
-.nav-link.active-sec{
-    background: #fff;
-    border-radius: .5rem;
-    color: blue;
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 4rem;
 }
 
-.nav-links i{
-    padding: .3rem 1rem .3rem 0;
+.nav-link {
+  padding: 1.1rem;
 }
-.img-mess{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav-link.active-sec {
+  background: #fff;
+  border-radius: 0.5rem;
+  color: blue;
 }
 
-.img-mess div{
-    padding: 1.6rem;
+.nav-links i {
+  padding: 0.3rem 1rem 0.3rem 0;
 }
-#search{
-    padding: 1rem;
-    width: 500px;
+.img-mess {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.profile-pic{
-    background-color: #fff;
-    border: 1px solid #000;
-    border-radius: 50%;
+
+.img-mess div {
+  padding: 0.6rem;
+  margin: 0 1.5rem;
+}
+#search {
+  padding: 0.6rem;
+  width: 500px;
+  border: none;
+  background: rgb(226, 243, 247);
+  border-radius: 0 7px 7px 0;
+  margin: none;
+}
+#search:focus {
+  outline: none;
+}
+
+.profile-pic {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+}
+.main-search {
+  padding: 0.6rem;
+  border: none;
+  background: rgb(226, 243, 247);
+  border-radius: 7px 0 0 7px;
+  margin: none;
+}
+.search-icon {
+  display: flex;
+}
+i {
+  cursor: pointer;
+  color: rgb(22, 99, 223);
+}
+.fa-bell {
+  color: rgb(123, 164, 230);
 }
